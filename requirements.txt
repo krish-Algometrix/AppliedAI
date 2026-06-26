@@ -1,0 +1,21 @@
+# BFSI Risk Register AI — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# LLM & embedding
+ollama>=0.2.0
+sentence-transformers>=2.7.0
+
+# Vector search
+faiss-cpu>=1.8.0
+
+# Data handling
+openpyxl>=3.1.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Web UI
+gradio>=4.36.0
+
+# Utilities
+rich>=13.7.0
+colorama>=0.4.6
